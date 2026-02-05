@@ -51,7 +51,7 @@ export default function Features({
           className="text-center max-w-3xl mx-auto mb-16"
         >
           <h2
-            className="text-4xl md:text-5xl font-extrabold mb-6"
+            className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-6"
             style={{
               fontFamily: 'var(--tenant-font-heading, sans-serif)',
               color: 'hsl(var(--tenant-color-heading))',
@@ -64,7 +64,7 @@ export default function Features({
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8">
           {items.map((item, index) => {
             const Icon = iconMap[item.icon] || Shield;
             return (

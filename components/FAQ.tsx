@@ -106,7 +106,7 @@ export default function FAQ({
           className="text-center mb-16"
         >
           <h2
-            className="text-4xl md:text-5xl font-extrabold mb-6"
+            className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-6"
             style={{
               fontFamily: 'var(--tenant-font-heading, sans-serif)',
               color: 'hsl(var(--tenant-color-heading))',

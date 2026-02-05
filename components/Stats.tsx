@@ -80,14 +80,14 @@ export default function Stats({
             initial={{ opacity: 0, y: 20 }}
             animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ type: 'spring', stiffness: 100, damping: 12 }}
-            className="text-4xl md:text-5xl font-extrabold text-white text-center mb-16"
+            className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white text-center mb-16"
             style={{ fontFamily: 'var(--tenant-font-heading, sans-serif)' }}
           >
             {heading}
           </motion.h2>
         )}
 
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-8">
           {items.map((item, index) => (
             <motion.div
               key={index}
@@ -96,7 +96,7 @@ export default function Stats({
               transition={{ type: 'spring', stiffness: 100, damping: 12, delay: index * 0.08 }}
               className="text-center"
             >
-              <p className="text-5xl md:text-6xl font-extrabold text-white mb-2">
+              <p className="text-3xl sm:text-5xl md:text-6xl font-extrabold text-white mb-2">
                 <AnimatedNumber {...item} inView={inView} />
               </p>
               <p className="text-white/80 text-lg">{item.label}</p>

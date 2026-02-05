@@ -25,7 +25,7 @@ export default function ConsultationCTA({
   const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.2 });
 
   return (
-    <section ref={ref} className="relative py-24 overflow-hidden">
+    <section ref={ref} className="relative py-12 sm:py-24 overflow-hidden">
       {/* Background Image */}
       {imageUrl ? (
         <div className="absolute inset-0 z-0">
@@ -68,7 +68,7 @@ export default function ConsultationCTA({
           initial={{ opacity: 0, y: 20 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ type: 'spring', stiffness: 100, damping: 12 }}
-          className="text-4xl md:text-6xl font-extrabold text-white mb-6"
+          className="text-3xl sm:text-4xl md:text-6xl font-extrabold text-white mb-6"
           style={{ fontFamily: 'var(--tenant-font-heading, sans-serif)' }}
         >
           {heading}
@@ -78,7 +78,7 @@ export default function ConsultationCTA({
           initial={{ opacity: 0, y: 20 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ type: 'spring', stiffness: 100, damping: 12, delay: 0.08 }}
-          className="text-xl text-white/90 mb-10 max-w-2xl mx-auto"
+          className="text-base sm:text-xl text-white/90 mb-10 max-w-2xl mx-auto"
         >
           {subtitle}
         </motion.p>

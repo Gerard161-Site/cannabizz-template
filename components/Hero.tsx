@@ -94,7 +94,7 @@ export default function HeroFullScreen({
             className="mb-8 flex justify-center"
           >
             <div
-              className="relative w-32 h-32 rounded-full overflow-hidden shadow-2xl"
+              className="relative w-24 h-24 sm:w-32 sm:h-32 rounded-full overflow-hidden shadow-2xl"
               style={{
                 border: '3px solid hsl(var(--tenant-color-primary) / 0.5)',
                 boxShadow: '0 0 30px hsl(var(--tenant-color-primary) / 0.3), 0 0 60px hsl(var(--tenant-color-primary) / 0.15)',
@@ -109,7 +109,7 @@ export default function HeroFullScreen({
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ type: 'spring', stiffness: 100, damping: 12, delay: 0.2 }}
-          className="text-5xl md:text-7xl lg:text-8xl font-extrabold text-white mb-6"
+          className="text-3xl sm:text-5xl md:text-7xl lg:text-8xl font-extrabold text-white mb-6"
           style={{ fontFamily: 'var(--tenant-font-heading, sans-serif)' }}
         >
           {displayTitle}
@@ -119,7 +119,7 @@ export default function HeroFullScreen({
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ type: 'spring', stiffness: 100, damping: 12, delay: 0.35 }}
-          className="text-xl md:text-2xl text-white/90 mb-4 max-w-2xl mx-auto"
+          className="text-base sm:text-xl md:text-2xl text-white/90 mb-4 max-w-2xl mx-auto"
         >
           {displaySubtitle}
         </motion.p>
@@ -129,7 +129,7 @@ export default function HeroFullScreen({
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ type: 'spring', stiffness: 100, damping: 12, delay: 0.45 }}
-            className="text-lg text-white/70 mb-10 max-w-xl mx-auto"
+            className="text-sm sm:text-lg text-white/70 mb-10 max-w-xl mx-auto"
           >
             {description}
           </motion.p>

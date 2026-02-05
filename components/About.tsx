@@ -47,7 +47,7 @@ export default function About({
       style={{ backgroundColor: 'hsl(var(--tenant-color-background))' }}
     >
       <div className="container mx-auto px-6">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
           {/* Image */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
@@ -84,7 +84,7 @@ export default function About({
             transition={{ type: 'spring', stiffness: 80, damping: 15, delay: 0.1 }}
           >
             <h2
-              className="text-4xl md:text-5xl font-extrabold mb-6"
+              className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-6"
               style={{
                 fontFamily: 'var(--tenant-font-heading, sans-serif)',
                 color: 'hsl(var(--tenant-color-heading))',
@@ -100,7 +100,7 @@ export default function About({
             </p>
 
             {/* Stats */}
-            <div className="grid grid-cols-3 gap-6 mb-8">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 mb-8">
               {stats.map((stat, index) => (
                 <div key={index} className="text-center">
                   <p
