@@ -41,8 +41,8 @@ export default function CannabizzTemplate({
       className="template-cannabizz overflow-x-hidden"
       style={{
         fontFamily: 'var(--tenant-font-base, sans-serif)',
-        backgroundColor: 'var(--tenant-color-background)',
-        color: 'var(--tenant-color-text)',
+        backgroundColor: 'hsl(var(--tenant-color-background))',
+        color: 'hsl(var(--tenant-color-text))',
       }}
     >
       <Navigation

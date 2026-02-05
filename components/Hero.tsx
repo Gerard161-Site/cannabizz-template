@@ -35,8 +35,8 @@ export default function HeroFullScreen({
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background Image */}
-      {heroImageUrl && (
+      {/* Background: Image if available, otherwise rich gradient */}
+      {heroImageUrl ? (
         <div className="absolute inset-0 z-0">
           <Image
             src={heroImageUrl}
@@ -46,9 +46,19 @@ export default function HeroFullScreen({
             priority
           />
         </div>
+      ) : (
+        <div
+          className="absolute inset-0 z-0"
+          style={{
+            background: `linear-gradient(135deg,
+              hsl(var(--tenant-color-background)) 0%,
+              hsl(var(--tenant-color-primary) / 0.3) 50%,
+              hsl(var(--tenant-color-background)) 100%)`,
+          }}
+        />
       )}
 
-      {/* Gradient Overlay */}
+      {/* Gradient Overlay — works on both image and gradient backgrounds */}
       <div
         className="absolute inset-0 z-[1]"
         style={{

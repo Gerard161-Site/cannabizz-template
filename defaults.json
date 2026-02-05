@@ -2,7 +2,7 @@
   "template": "cannabizz",
   "slug": "cannabizz",
   "logoPath": null,
-  "heroImagePath": "/templates/cannabizz/hero.jpg",
+  "heroImagePath": null,
   "heroVideoPath": null,
   "primaryColor": "275 70% 55%",
   "fontFamily": "'Nunito', sans-serif",
