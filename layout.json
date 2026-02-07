@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0",
+  "navigation": "NavFull",
+  "sections": [
+    { "type": "HeroFullScreen", "id": "hero" },
+    { "type": "ValueProps", "id": "value-props" },
+    { "type": "About", "id": "about" },
+    { "type": "Features", "id": "features" },
+    { "type": "Stats", "id": "stats" },
+    { "type": "FAQ", "id": "faq" },
+    { "type": "CTABanner", "id": "cta" }
+  ],
+  "footer": "FooterFull",
+  "settings": {
+    "wrapperClass": "template-cannabizz",
+    "googleFontsUrl": "https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Nunito:wght@400;600;700&display=swap"
+  }
+}
