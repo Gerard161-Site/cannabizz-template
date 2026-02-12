@@ -2,7 +2,7 @@
   "template": "cannabizz",
   "slug": "cannabizz",
   "logoPath": null,
-  "heroImagePath": "hero.jpg",
+  "heroImagePath": "assets/hero.jpg",
   "heroVideoPath": null,
   "primaryColor": "275 70% 55%",
   "fontFamily": "'Nunito', sans-serif",
@@ -162,11 +162,26 @@
   },
   "navigation": {
     "links": [
-      { "label": "Products", "href": "/products" },
-      { "label": "About", "href": "/about" },
-      { "label": "The Wire", "href": "/the-wire" },
-      { "label": "FAQ", "href": "/faq" },
-      { "label": "Contact", "href": "/contact" }
+      {
+        "label": "Products",
+        "href": "/products"
+      },
+      {
+        "label": "About",
+        "href": "/about"
+      },
+      {
+        "label": "The Wire",
+        "href": "/the-wire"
+      },
+      {
+        "label": "FAQ",
+        "href": "/faq"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact"
+      }
     ],
     "cta": {
       "label": "Get Started",
@@ -180,25 +195,52 @@
       {
         "title": "Shop",
         "links": [
-          { "label": "All Products", "href": "/products" },
-          { "label": "Popular Picks", "href": "/products?filter=popular" },
-          { "label": "New Drops", "href": "/products?filter=new" }
+          {
+            "label": "All Products",
+            "href": "/products"
+          },
+          {
+            "label": "Popular Picks",
+            "href": "/products?filter=popular"
+          },
+          {
+            "label": "New Drops",
+            "href": "/products?filter=new"
+          }
         ]
       },
       {
         "title": "Learn",
         "links": [
-          { "label": "About Us", "href": "/about" },
-          { "label": "The Wire", "href": "/the-wire" },
-          { "label": "FAQ", "href": "/faq" }
+          {
+            "label": "About Us",
+            "href": "/about"
+          },
+          {
+            "label": "The Wire",
+            "href": "/the-wire"
+          },
+          {
+            "label": "FAQ",
+            "href": "/faq"
+          }
         ]
       },
       {
         "title": "Legal",
         "links": [
-          { "label": "Privacy Policy", "href": "/privacy" },
-          { "label": "Terms of Service", "href": "/terms" },
-          { "label": "Compliance", "href": "/regulatory" }
+          {
+            "label": "Privacy Policy",
+            "href": "/privacy"
+          },
+          {
+            "label": "Terms of Service",
+            "href": "/terms"
+          },
+          {
+            "label": "Compliance",
+            "href": "/regulatory"
+          }
         ]
       }
     ]
