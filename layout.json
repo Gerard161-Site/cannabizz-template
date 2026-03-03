@@ -2,13 +2,156 @@
   "version": "1.0.0",
   "navigation": "NavFull",
   "sections": [
-    { "type": "HeroFullScreen", "id": "hero" },
-    { "type": "ValueProps", "id": "value-props" },
-    { "type": "About", "id": "about" },
-    { "type": "Features", "id": "features" },
-    { "type": "Stats", "id": "stats" },
-    { "type": "FAQ", "id": "faq" },
-    { "type": "CTABanner", "id": "cta" }
+    {
+      "type": "HeroFullScreen",
+      "id": "hero",
+      "config": {
+        "title": "Your Vibe. Your Bud. Your Way.",
+        "subtitle": "Premium Cannabis, Zero Hassle",
+        "description": "Consult with real specialists, browse top-shelf products, and get it delivered fast. The dispensary experience, upgraded.",
+        "textAlign": "center",
+        "heroType": "gradient-image",
+        "ctaText": "Get Started",
+        "secondaryCtaText": "Browse Products",
+        "secondaryCtaHref": "/products"
+      }
+    },
+    {
+      "type": "ValueProps",
+      "id": "value-props",
+      "config": {
+        "heading": "Why We Hit Different",
+        "subtitle": "Premium vibes, locked-in quality, lightning speed",
+        "items": [
+          {
+            "title": "Premium Vibes Only",
+            "description": "Lab-tested, top-shelf bud that hits different every time.",
+            "icon": "Star"
+          },
+          {
+            "title": "Locked-In Quality",
+            "description": "Every product certified and compliant — no cap.",
+            "icon": "Shield"
+          },
+          {
+            "title": "Lightning Fast",
+            "description": "Same-day processing, discreet delivery to your door.",
+            "icon": "Zap"
+          },
+          {
+            "title": "Speedy Delivery",
+            "description": "Track your order in real-time. We move quick.",
+            "icon": "Truck"
+          }
+        ]
+      }
+    },
+    {
+      "type": "About",
+      "id": "about",
+      "config": {
+        "heading": "The CannaBiZZ Story",
+        "content": "We started with one goal: make cannabis accessible, fun, and totally legit. No stuffy vibes, no confusing menus — just top-tier bud, real talk from real people, and a shopping experience that actually slaps.",
+        "imageUrl": "assets/hero.jpg",
+        "stats": [
+          { "value": "10K+", "label": "Happy Customers" },
+          { "value": "50+", "label": "Premium Strains" },
+          { "value": "4.9", "label": "Average Rating" }
+        ]
+      }
+    },
+    {
+      "type": "Features",
+      "id": "features",
+      "config": {
+        "heading": "What Sets Us Apart",
+        "subtitle": "Six reasons to make CannaBiZZ your go-to",
+        "items": [
+          {
+            "title": "Lab Certified",
+            "description": "Every batch tested by independent labs for purity and potency.",
+            "icon": "FlaskConical"
+          },
+          {
+            "title": "Expert Guidance",
+            "description": "Real consultations with licensed cannabis specialists.",
+            "icon": "HeartPulse"
+          },
+          {
+            "title": "Discreet Packaging",
+            "description": "Plain packaging, no labels. Your business is your business.",
+            "icon": "Lock"
+          },
+          {
+            "title": "Wide Selection",
+            "description": "Flower, oils, edibles, concentrates — we've got the range.",
+            "icon": "Leaf"
+          },
+          {
+            "title": "Community First",
+            "description": "Built by cannabis lovers, for cannabis lovers.",
+            "icon": "Users"
+          },
+          {
+            "title": "Always Fresh",
+            "description": "Small-batch sourcing means you always get the freshest drop.",
+            "icon": "Award"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Stats",
+      "id": "stats",
+      "config": {
+        "heading": "By the Numbers",
+        "items": [
+          { "value": "10000", "suffix": "+", "label": "Orders Delivered" },
+          { "value": "50", "suffix": "+", "label": "Strains Available" },
+          { "value": "99", "suffix": "%", "label": "Customer Satisfaction" },
+          { "value": "24", "suffix": "/7", "label": "Support Available" }
+        ]
+      }
+    },
+    {
+      "type": "FAQ",
+      "id": "faq",
+      "config": {
+        "heading": "Frequently Asked Questions",
+        "subtitle": "Got questions? We've got answers.",
+        "items": [
+          {
+            "question": "How do I get started?",
+            "answer": "Hit the 'Get Started' button, book a quick consultation with one of our specialists, and you're good to go. It's free and takes about 10 minutes."
+          },
+          {
+            "question": "Is this legal?",
+            "answer": "100%. We operate fully within South African cannabis regulations. All products are prescribed by licensed healthcare professionals."
+          },
+          {
+            "question": "How fast is delivery?",
+            "answer": "Most orders ship same-day and arrive within 1-3 business days, depending on your location. We'll send you tracking info the moment it leaves."
+          },
+          {
+            "question": "What payment methods do you accept?",
+            "answer": "We accept EFT, credit/debit cards, and select crypto payments. All transactions are secure and discreet."
+          },
+          {
+            "question": "Can I return products?",
+            "answer": "Due to the nature of our products, we can't accept returns on opened items. But if there's ever an issue, reach out and we'll make it right."
+          }
+        ]
+      }
+    },
+    {
+      "type": "CTABanner",
+      "id": "cta",
+      "config": {
+        "heading": "Ready to Elevate?",
+        "subtitle": "Book a free consultation and find your perfect match.",
+        "ctaText": "Get Started Free"
+      }
+    }
   ],
   "footer": "FooterFull",
   "settings": {

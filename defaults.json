@@ -8,7 +8,7 @@
   "fontFamily": "'Nunito', sans-serif",
   "designSystem": {
     "colors": {
-      "neon-purple": {
+      "primary-scale": {
         "50": "275 70% 97%",
         "100": "275 70% 92%",
         "200": "275 70% 82%",
@@ -19,30 +19,6 @@
         "700": "275 70% 35%",
         "800": "275 70% 25%",
         "900": "275 70% 15%"
-      },
-      "neon-green": {
-        "50": "145 80% 97%",
-        "100": "145 80% 92%",
-        "200": "145 80% 82%",
-        "300": "145 80% 72%",
-        "400": "145 80% 66%",
-        "500": "145 80% 55%",
-        "600": "145 80% 45%",
-        "700": "145 80% 35%",
-        "800": "145 80% 25%",
-        "900": "145 80% 15%"
-      },
-      "electric-blue": {
-        "50": "210 100% 97%",
-        "100": "210 100% 92%",
-        "200": "210 100% 82%",
-        "300": "210 100% 72%",
-        "400": "210 100% 66%",
-        "500": "210 100% 65%",
-        "600": "210 100% 55%",
-        "700": "210 100% 45%",
-        "800": "210 100% 35%",
-        "900": "210 100% 25%"
       },
       "primary": "275 70% 55%",
       "secondary": "145 80% 55%",
@@ -136,7 +112,7 @@
     {
       "title": "Premium Vibes Only",
       "description": "Lab-tested, top-shelf bud that hits different every time.",
-      "icon": "Sparkles"
+      "icon": "Star"
     },
     {
       "title": "Locked-In Quality",
@@ -189,7 +165,7 @@
     }
   },
   "footer": {
-    "copyright": "\u00a9 {year} {businessName}. All rights reserved.",
+    "tagline": "Your Vibe. Your Bud. Your Way.",
     "disclaimer": "Cannabis should only be used under the guidance of a licensed healthcare professional. Must be of legal age. This product is not intended to diagnose, treat, cure, or prevent any disease.",
     "sections": [
       {
